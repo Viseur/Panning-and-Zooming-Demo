@@ -9,7 +9,6 @@ clock = pygame.time.Clock()
     
 ctrlPressed = False;
 scale = 1 # scale of the grid rendered on the window
-gridX, gridY = 0, 0 # initial position of grid, this changes when panning
 
 grid = grid.Grid(window, [0, 0], constants.WHITE, 20, 1)
 
