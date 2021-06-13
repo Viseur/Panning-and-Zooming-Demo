@@ -2,7 +2,7 @@
 A very simple demonstration on how some portion of a screen can be panned around, and zoomed in/out. 
 
 # What does it do?
-when run, the program renders a 20 (rows) x 20 (columns) grid on a pygame window. The grid can be panned around by pressing the left mouse button and at the same time dragging the mouse. The grid can also be zoomed in / out via either the mouse wheel, or pressing the `-` key (to zoom out) and the `=` key (to zoom out). 
+when run, the program renders a 20 (rows) x 20 (columns) grid on a pygame window. The grid can be panned around by pressing the left mouse button and at the same time dragging the mouse. The grid can also be zoomed in / out via either the mouse wheel, or pressing the `-` key (to zoom out) and the `=` key (to zoom in). 
 
 # Modules
 `main.py` needs pygame to render the grid in real time, and also handles mouse and keyboard input. The program itself runs at a steady 250
